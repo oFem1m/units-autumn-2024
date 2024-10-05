@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test main page component shoulds contain only 1 product with category Electronics 1`] = `
+<DocumentFragment>
+  <div
+    class="main-page"
+  >
+    <h2
+      class="main-page__title"
+    >
+      VK Маркет
+    </h2>
+    <h3 />
+    <div
+      class="main-page__parameters"
+    />
+    <div
+      class="product-card"
+    >
+      <div
+        class="product-card__text"
+      >
+        <h2
+          class="product-card__name"
+        >
+          Настольная лампа
+        </h2>
+        <div
+          class="product-card__description"
+        >
+          Говорят, что ее использовали в pixar
+        </div>
+        <h1
+          class="product-card__price"
+        />
+        <div
+          class="product-card__category"
+        >
+          Для дома
+        </div>
+      </div>
+      <img
+        alt="Настольная лампа"
+        class="product-card__image"
+        src="/lamp.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,11 +1,11 @@
 import { cleanup } from '@testing-library/react';
 import { useProducts } from '../useProducts';
 
-jest.mock('..');
+jest.mock('../index');
 
 describe('test use products function', () => {
     afterEach(() => {
-        cleanup;
+        cleanup();
         jest.clearAllMocks();
     });
     it('should return correct products', () => {

@@ -17,6 +17,7 @@ describe('Products test', () => {
                 name={'Ipad'}
                 description={'Ipad_description'}
                 price={100}
+                priceSymbol={'₽'}
                 category={'Электроника'}
             />
         );
@@ -31,6 +32,7 @@ describe('Products test', () => {
                 name={'Ipad'}
                 description={'Ipad_description'}
                 price={100}
+                priceSymbol={'₽'}
                 category={'Электроника'}
                 imgUrl={'public/iphone.png'}
             />
